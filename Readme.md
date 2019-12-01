@@ -7,12 +7,12 @@ By Belinda Okumu
 * Open my Github account.
 * Git clone my repository.
 * Send a pull request.
-<!-- ## Technology used
+## Technology used
 *HTML
 *CSS
 *Bootsrap
 *JavaScript
-## Contributing
+<!-- ## Contributing
 Pull requests are welcome.
 ## Contacts
 * Tel: +254706313301
