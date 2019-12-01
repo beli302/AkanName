@@ -1,4 +1,16 @@
-.form input{
+body{
+    background-color: aqua;
+}
+
+.formrow > div >input{
     width: 100%;
     margin-bottom: 4%;
+}
+/* .container {
+    background-color: aqua;
+} */
+h1{
+    font-size: 30px;
+    text-align: center;
+    
 }

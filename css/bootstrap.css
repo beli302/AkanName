@@ -59,8 +59,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
-  background-color: #fff;
+  text-align: center;
+  background-color:aqua;
 }
 
 [tabindex="-1"]:focus {
@@ -551,6 +551,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+ 
 }
 
 @media (min-width: 576px) {
@@ -603,6 +604,9 @@ pre code {
 .no-gutters > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
+}
+.row{
+  text-align: center;
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,

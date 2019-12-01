@@ -5,42 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan Names</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
     <div class="jumbotron">
-    <h1>Akan Names</h1>
-</div> 
-<p>Akan Names are derived from Ghanian culture where chidren are named according to the day they are born.</p>
-
-
-    <form action="">
-        <div class="form">
-        <div>
-            <label></label>
-        <input type="number" placeholder="cc" name="Centuary">
+            <div class="row">
+                    <div class="col-12-md-2">
+                            <h1>AKAN NAMES</h1>
+                        <img src="https://bit.ly/33v61ti">
+                        <!-- <div class="col-10"> -->
+                        <p>Akan Names are derived from Ghanian culture where chidren are named according to the day they are born.</p>
+                    </div>
+   
+<div class="form">
+    <form name="akan">
+    <div>
+     <label class="a">Your name</label> 
+     <br><input type="text" placeholder="Enter your name" name="name" id="name" required> 
+    </div>
+       
+        <!-- <div>
+            <label>Type the century</label>
+        <br><input type="number" placeholder="cc" name="Century" id="century" required>
+    </div> -->
+    <div>
+        <label for="input-yyyy">Year Of Birth</label>
+       <br> <input type="number" placeholder="yyyy" name="Year" id="year" required>
     </div>
     <div>
-        <input type="number" placeholder="yy" name="Year">
-    </div>
+        <label for="input-mm">Month Of Birth</label>
+        <br><input type="number" placeholder="mm" name="Month" id="month" required>
+    </div> 
     <div>
-        <input type="number" placeholder="mm" name="Month">
-    </div>
-    <div>
-        <input type="number" placeholder="dd" name="Day">
+        <label for="dd">Date Of Birth</label>
+        <br><input type="number" placeholder="dd" name="Date" id="date" required>
     </div>
 </div>
     <div id="gender" class="checkbox">
-        Male<input type="radio" value="Male" id="Male" name="Gender">
-        Female<input type="radio" value="Female" id="Female" name="Gender">
+        <label>Gender</label>
+       <br> Male<input type="radio" value="Male" id="Male" name="Gender">
+        <br>Female<input type="radio" value="Female" id="Female" name="Gender">
     </div>
-    <div class="button">
-        <input type="button" value="Submit" onclick="getname()">
+    <div>
+     <button type="submit" onclick="getName();return false;" value="submit">submit</button>
+     </div>
+     <!-- <div id="post">
+        
+     </div> -->
 
-    </div>
     </form>
 </div>
+</div>
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
