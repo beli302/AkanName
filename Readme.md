@@ -12,9 +12,9 @@ By Belinda Okumu
 *CSS
 *Bootsrap
 *JavaScript
-<!-- ## Contributing
+## Contributing
 Pull requests are welcome.
-## Contacts
+<!-- ## Contacts
 * Tel: +254706313301
 * Email: belindashirkiz@gmail.com
 # Licence
