@@ -3,11 +3,11 @@
 Akan Names are derived from Ghanian culture where chidren are named according to the day they were born.
 ## Authors information
 By Belinda Okumu
-<!-- ## Set up instractions
+## Set up instractions
 * Open my Github account.
 * Git clone my repository.
 * Send a pull request.
-## Technology used
+<!-- ## Technology used
 *HTML
 *CSS
 *Bootsrap
