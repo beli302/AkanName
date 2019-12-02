@@ -1,7 +1,4 @@
 
-/* .container {
-    background-color: aqua;
-} */
 h1{
     font-size: 30px;
     text-align: center;
@@ -30,5 +27,9 @@ span1{
 }
 span2{
     color: chocolate;
+}
+h2{
+    font-size: 30px;
+    padding: 5px;
 }
 
