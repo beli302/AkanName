@@ -2,11 +2,11 @@
 /* .container {
     background-color: aqua;
 } */
-h1{
+/* h1{
     font-size: 30px;
     text-align: center;
     color: black;
-    
+     */
 }
 input[type=number], select {
     width: 50%;
@@ -15,7 +15,4 @@ input[type=number], select {
     display: inline-block;
     border: 1px solid black;
     box-sizing: border-box;
-}
-.gender option{
-width: 50%;
 }
