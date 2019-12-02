@@ -16,5 +16,7 @@ input[type=number], select {
     border: 1px solid black;
     box-sizing: border-box;
 }
-
+p{
+    font-size: 25px;
+}
 
