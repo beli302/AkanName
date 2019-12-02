@@ -14,9 +14,8 @@ function akan(){
     var akanfemaleweek =["Yaa", "Afua", "Ama", "Akosua", "Adwoa", "Abenaa", "Akua"];
     var akanfemaleweek2 =["Afua", "Ama", "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa"];
     var akanfemaleweek3 =["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    alert("day")
     if (y === ""){
-        alert("Invalid number");
+        alert("day");
     }
     else if (gender == 1){
         if(m == 4) {
@@ -37,8 +36,9 @@ function akan(){
         else {
             alert("Hello! you were born on " + week[day] + " and your Akan Name is " + akanmaleweek[day]);
         }
-        if (m === ""){
-            alert("Enter valid month")
+    }
+        if (y === ""){
+            alert("day")
         }
        else if (g == 2){
             if (m == 4){
@@ -60,5 +60,5 @@ function akan(){
                 alert("Hello! you were born on " + week[day] + " and your Akan Name is " + akanfemaleweek[day]);
             }
         }
-    }
+    alert(week)
 }

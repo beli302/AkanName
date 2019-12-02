@@ -14,6 +14,8 @@ By Belinda Okumu
 *JavaScript
 ## Contributing
 Pull requests are welcome.
+## Project link
+url(https://beli302.github.io/AkanName/)
 ## Contacts
 * Tel: +254706313301
 * Email: belindashirkiz@gmail.com
