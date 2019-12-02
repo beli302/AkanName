@@ -22,4 +22,7 @@ p{
 button:hover{
     color: crimson;
 }
+label{
+    font-size:25px 
+}
 
