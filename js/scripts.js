@@ -1,35 +1,64 @@
- function getDay(name){
-    var century = year.slice(0, 2);
-    var year = year.slice(2, 4);
-    var years = year.slice(2,4);
-    var month = parseInt(document.getElementById("month").value);
-    var date = parseInt(document.getElementById("day").value);
- }
-if (year === "" || year > 4 || month === "" || month < 1 || month > 12 || date === "" || date < 0 || date > 31 || name ==="") {
-     alert("Make sure you have fill in correct information")
- } else{
-     var day = Math.floor((((century/4)-2*century-1)+((5*years/4))+((26*(month+1)/10))+date)%7);
-     return day
- }
-
- function getGender(){
-     var radio =document.getElementsByName("gender");
-     for (var i = 0; i < radio.length; i++){
-         if (radio[i].checked){
-           var gender = radio[i].value;
-            return gender;        }
+function akan(){
+    var y = parseInt(document.getElementById("year").value);
+    var m = parseInt(document.getElementById("month").value);
+    var d = parseInt(document.getElementById("date").value);
+    var gender = parseInt(document.getElementsByTagName("select")[0].value)
+    var date = new Date (y,m,d);
+    var day = date.getDay();
+    var week = ["Thursday", "Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"];
+    var week2 =["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
+    var week3 =[ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var akanmaleweek =["Yaw", "Kofi", "Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku"];
+    var akanmaleweek2 =["Kofi", "Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw"];
+    var akanmaleweek3 =["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw","Kofi", "Kwame" ];
+    var akanfemaleweek =["Yaa", "Afua", "Ama", "Akosua", "Adwoa", "Abenaa", "Akua"];
+    var akanfemaleweek2 =["Afua", "Ama", "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa"];
+    var akanfemaleweek3 =["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    alert("day")
+    if (y === ""){
+        alert("Invalid number");
     }
- }
- function getName(){
-     var name = document.getElementById("name").value;
-    var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-     var female = ["Akosua", "Adwoa", "Abenna", "Akua", "Yaa", "Afua", "Ama"];
-
-     if (getGender() === "male"){
-        document.getElementById("post").innerHTML = 'Hello ${name}! your Akan name is ${male[getDay(name)]}';
-     }else if(getGender() === "female"){
-         document.getElementById("post").innerHTML = 'Hello ${name}! your Akan name is ${female[getDay(name)]}';
-    }else{
-         alert("Select your gender ")
-     }
- }
+    else if (gender == 1){
+        if(m == 4) {
+            alert("Hello! you were born on " + week2[day] + " and your Akan Name is " + akanmaleweek2[day]);
+        }
+        else if (m == 6) {
+            alert("Hello! you were born on " + week2[day] + " and your Akan Name is " + akanmaleweek2[day]);
+        }
+        else if (m == 9) {
+            alert("Hello! you were born on " + week2[day] + " and your Akan Name is " + akanmaleweek2[day]);
+        }
+        else if (m == 11) {
+            alert("Hello! you were born on " + week2[day] + " and your Akan Name is " + akanmaleweek2[day]);
+        }
+        else if (m == 2) {
+            alert("Hello! you were born on " + week3[day] + " and your Akan Name is " + akanmaleweek3[day]);
+        }
+        else {
+            alert("Hello! you were born on " + week[day] + " and your Akan Name is " + akanmaleweek[day]);
+        }
+        if (m === ""){
+            alert("Enter valid month")
+        }
+       else if (g == 2){
+            if (m == 4){
+                alert("Hello! you were born on " + week2[day] + " and your Akan Name is " + akanfemaleweek2[day]);
+            }
+            else if (m == 6) {
+                alert("Hello! you were born on " + week2[day] + " and your Akan Name is " + akanfemaleweek2[day]);
+            }
+            else if (m == 9) {
+                alert("Hello! you were born on " + week2[day] + " and your Akan Name is " + akanfemaleweek2[day]);
+            }
+            else if (m == 11) {
+                alert("Hello! you were born on " + week2[day] + " and your Akan Name is " + akanfemaleweek2[day]);
+            }
+            else if (m == 2) {
+                alert("Hello! you were born on " + week3[day] + " and your Akan Name is " + akanfemaleweek3[day]);
+            }
+            else {
+                alert("Hello! you were born on " + week[day] + " and your Akan Name is " + akanfemaleweek[day]);
+            }
+        }
+    }
+}
